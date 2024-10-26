@@ -18,5 +18,4 @@ function gameLoop(timestamp) {
 }
 
 function update(deltaTime) {}
-
 function draw(deltaTime) {}
