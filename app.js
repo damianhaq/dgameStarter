@@ -3,6 +3,9 @@ import { Game } from "./DGamev3.js";
 const game = new Game();
 game.init("canvas", 800, 600, 2);
 
+const bigSpritev7 = new Image();
+bigSpritev7.src = "BigSpritev7.png";
+
 // Game loop
 requestAnimationFrame(gameLoop);
 let lastTime = 0;
