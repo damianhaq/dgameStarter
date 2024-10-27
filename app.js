@@ -1,4 +1,5 @@
 import { Game } from "./DGamev3.js";
+// import jsonData from "./gamev9.json" with { type: "json" };
 
 const game = new Game();
 game.init("canvas", 800, 600, 2);
